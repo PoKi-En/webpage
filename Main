@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Awesome Links</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .link-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .link-list li {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+
+    .link-list li a {
+      text-decoration: none;
+      color: #333;
+      display: block; /* Make the entire link area clickable */
+      padding: 5px 0;
+    }
+
+    .link-list li a:hover {
+      background-color: #eee;
+    }
+
+    h1 {
+      text-align: center;
+      color: #444;
+    }
+
+    p {
+      text-align: center;
+      color: #777;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>My Cool Links</h1>
+    <p>Click the links below!</p>
+
+    <ul class="link-list">
+      <li>
+        <a href="https://www.google.com" target="_blank">Google</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
